@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    color:#404445 ;
+    font-family: 'Inter', Ubuntu, 'Segoe UI', sans-serif;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Fond_Image{
+	background: linear-gradient(rgba(255, 255, 255, 0.9)),
+	 			url("assets/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.Positionnement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navigation{
+    position:fixed;
+    box-shadow:  0px 3px 10px 0px rgba(111, 120, 130, 0.4);
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.Presentation{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Section_A_Propos{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-end;
+    width: 100%;
+}
+.Bloc_A_Propos{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 460px;
+    padding-bottom: 80px;
+}
+
+.Liens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Liens a {
+	position: relative;
+  	text-decoration: none;
+  	padding-bottom: 5px;
+  	font-size: 16px;
+  	margin-left: 20px;
+    font-weight: bold;
+}
+.Liens a:after {
+  	position: absolute;
+  	content: "";
+  	bottom: -7px;left: 0;
+  	width: 0;
+  	height: 2px;
+  	background: #404445;
+  	transition: width 0.3s ease;	
+}
+
+.Liens a:hover::after {
+	width: 100%;
+}
+
+.Image_Texte{
+    display: flex;
+    gap: 10px;
+}
+
+
+.cadre{
+	background-color:#FFFFFF;
+	border:2px solid #74DDC9;
+	padding:4px;
+	border-radius:5px ;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.bouton{
+	background-color:#74DDC9;
+	border:3px solid #74DDC9;
+	padding-right:15px;
+	padding-left: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius:100px ;
+	color: white;
+}
+
+
